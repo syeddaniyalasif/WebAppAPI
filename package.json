@@ -1,7 +1,6 @@
 {
-  "name": "react-passport-redux-example",
+  "name": "WebFrameworkApi",
   "version": "1.0.0",
-  "description": "Demonstration of PassportJS authentication in React w/ Redux.",
   "main": "devStart.js",
   "scripts": {
     "build:lib": "babel src/server --out-dir lib/server",
@@ -30,22 +29,6 @@
       }
     }
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kilkelly/react-passport-redux-example.git"
-  },
-  "keywords": [
-    "react",
-    "js",
-    "javascript",
-    "passport",
-    "authentication",
-    "router",
-    "redux",
-    "mongodb",
-    "mongoose",
-    "express"
-  ],
   "dependencies": {
     "axios": "0.9.1",
     "bcrypt-nodejs": "0.0.3",
@@ -83,19 +66,7 @@
     "webpack-dev-middleware": "^1.5.1",
     "webpack-hot-middleware": "^2.10.0"
   },
-  "author": "Frank Kilkelly",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kilkelly/react-passport-redux-example/issues"
-  },
-  "homepage": "https://github.com/kilkelly/react-passport-redux-example#readme",
-  "babel": {
-    "presets": [
-      "react",
-      "es2015"
-    ],
-    "plugins": [
-      "transform-object-rest-spread"
-    ]
-  }
+  "author": "Daniyal Asif",
+  "license": "MIT"
+
 }
